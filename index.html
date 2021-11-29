@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>TradingViewVidget</title>
+</head>
+
+<body>
+  <style>
+  .tradingview-widget-container {
+  height: 200px;
+  position: relative;
+  margin: 0px;
+  }
+</style>
+
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
+  {
+  "colorTheme": "dark",
+  "isTransparent": false,
+  "width": "720",
+  "height": "1280",
+  "locale": "en",
+  "importanceFilter": "-1,0,1"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+</body>
+</html>
